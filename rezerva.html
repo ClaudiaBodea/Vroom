@@ -1,0 +1,151 @@
+ <!DOCTYPE html>
+   <html lang="ro">
+    <head>
+      <meta charset="UTF-8">
+      <title>Vroom Car Rental</title>
+      <link href="assets/stylesheets/reset.css" rel="stylesheet">
+      <link href="assets/stylesheets/main.css" rel="stylesheet">
+      <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!--Header-->
+    <header class="primary-header container group">
+          <section class="container">
+            <h1 class="logo">
+               <a href="index.html"><img src="assets/images/home/car.png"> Vroom<br>Car Rental</a>
+          </section>
+          <h3 class="tagline">Tel/ WhatsApp REZERVARI: + 40 755 248 659</h3>
+          <nav class="nav primary-nav">
+               <ul>
+                  <li><a href="index.html">Acasa</a></li><!--
+                --><li><a href="masini.html">Masini</a></li><!--
+                --><li><a href="termeni.html">Termeni si conditii</a></li><!--
+                --><li><a href="contact.html">Contact</a></li><!--
+                --><li><a href="rezerva.html">Rezerva</a></li><!--
+                --><li><a href="login.html">Cont</a></li>
+              
+              </ul>
+        </nav>
+    </header>
+
+    <!--Hero-->
+  	<!-- <section class="container">
+        <h2>Dedicated to the Craft of Building Websites</h2>
+        <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
+        <a href="register.html">Register Now</a>
+    </section> -->
+
+    <!--Lead-->
+    <!-- <section class="container">
+            Speakers
+            <a href="speakers.html">	
+            <h5>Speakers</h5>
+            <h3>World-Class Speakers</h3></a>
+            <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+    </section>
+
+      Schedule
+      <section class="container">
+          <a href="schedule.html">	
+          <h5>Schedule</h5>
+          <h3>World-Class Speakers</h3></a>
+          <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+      </section>
+
+        Venue
+      <section class="container">
+      	  <a href="venue.html">
+          <h5>Venue</h5>
+          <h3>World-Class Speakers</h3></a>
+          <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+        </section> -->
+
+    <!--Register-->
+    <section class="row-alt">
+      <div class="lead container">  
+        <h1>Rezerva</h1>                
+        <p>Ofertele sunt personalizate in functie de perioada pe care se inchiriaza masina.</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="grid">
+        <section class="col-2-3" >
+                <h2>Inchiriaza acum</h2>
+                <h5>Preturi incepand de la $14/ zi</h5>              
+                <p>Contactea-za-ne acum pentru o oferta personalizta! Vom reveni in cel mai scurt timp cu confirmarea rezervarii si pentru stabilirea locatiei si a orei de predare.</p><br>            
+                <h4>De ce VroomCrentals?</h4>
+                <ul class="why-attend">
+                    <li>Rezervari la orice ora</li>
+                    <li>Predare si preluare masini gratuit in Cluj si la Aeroport</li>
+                    <li>Garantii rezonabile</li>
+                    <li>Gratuit, la cerere, scaun de copii si GPS</li>
+                </ul>                  
+        </section><!--
+        --><form class="col-1-3" id="locul_rasp">
+                <fieldset class="register-group"id="locul_form">
+                    <label>
+                        Nume
+                        <input type="text" name="name" placeholder="Nume complet" size=50 required>
+                    </label>
+                    <label>
+                        Telefon
+                        <input type="tel" name="tel" placeholder="Telefon" size=50 required>
+                    </label>
+                    <label>
+                        Data preluare
+                        <input type="date" name="date_1" required>
+                    </label>
+                    <label>
+                        Data predare
+                        <input type="date" name="date_2" required>
+                    </label>
+                    <label>
+                        Masina
+                        <select name="car" id="loc_combo" required>
+                           <!--  <option value="Ford Focus">Ford Focus</option>
+                            <option value="VW Passat">VW Passat</option>
+                            <option value="Audi A4">Audi A4</option>
+                            <option value="Mazda 5">Mazda 5</option>
+                            <option value="VW Touran">VW Touran</option> -->
+                        </select>
+                    </label>
+                    <label>
+                        Scaun auto
+                        <input type="checkbox" name="scaun">
+                    </label>
+                    <label>
+                        GPS
+                        <input type="checkbox" name="GPS">                
+                    </label>
+                    <label>
+                        Comentarii
+                        <textarea name="comments"></textarea>
+                    </label>       
+                </fieldset>
+                <button class="btn btn-default" type="button" id="adregistr">Rezerva </button>
+            </form>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <footer class="primary-footer container group">
+        <small>&copy;  <a href="index.html"><img src="assets/images/home/car22.png">  Vroom Car Rental  <script>document.write(new Date().getFullYear())</script>   </a></small>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Acasa</a></li><!--
+                  --><li><a href="masini.html">Masini</a></li><!--
+                  --><li><a href="termeni.html">Termeni si conditii</a></li><!--
+                  --><li><a href="contact.html">Contact</a></li><!--
+                  --><li><a href="rezerva.html">Rezerva</a></li><!--
+                  --><li><a href="login.html">Cont</a></li>
+            </ul>
+        </nav>
+    </footer>
+ <script src="rezerva.js"></script>
+ <script src="masini.js"></script>
+</body>
+</html>
+
+  
